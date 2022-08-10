@@ -14,6 +14,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo URLROOT; ?>/pages/about">About</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?php echo URLROOT; ?>/games"
+                        role="button" aria-haspopup="true" aria-expanded="false">Games</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="<?php echo URLROOT; ?>/games/xsio">X si 0</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="<?php echo URLROOT; ?>/games/fazan">Fazan</a>
+                    </div>
+                </li>
             </ul>
 
             <ul class="navbar-nav ml-auto">
