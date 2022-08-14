@@ -1,0 +1,47 @@
+ /* Xsi0 Game CSS */
+
+ h2.game-player {
+     text-align: center;
+ }
+
+ .game-container {
+     width: 210px;
+     height: 20vh;
+     margin: 5rem auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     font-size: 3rem;
+ }
+
+ .game-container div {
+     color: black;
+     border-bottom: 1px solid darkgray;
+     border-right: 1px solid darkgray;
+     width: 70px;
+     height: 70px;
+     cursor: pointer;
+ }
+
+ .game-container div:hover {
+     background-color: #efefef;
+ }
+
+ .game-container div[c="2"] {
+     border-right: none;
+ }
+
+ .game-container div[l="2"] {
+     border-bottom: none;
+ }
+
+ #btnReset {
+     display: block;
+     min-width: 100px;
+     margin: 0 auto;
+ }
+
+ /* END Xsi0 Game CSS */
